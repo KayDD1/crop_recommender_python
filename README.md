@@ -8,9 +8,24 @@
 4. [GitCli](https:git-scm.com/book/en/v2/Getting-Started-The-Command-Line) 
 
 
-Create a New Environment
+Create a New Virtual Environment
 
 ```
-conda create -p venv python==3.7 -y
+python -m venv tfod
+
+```
+
+Activate Virtual Environment
+
+```
+.\crop_recom\Scripts\activate
+
+```
+Install dependencies and add virtual environment to the Python Kernel
+
+```
+python -m pip install --upgrade pip
+pip install ipykernel
+python -m ipykernel install --user --name=crop_recom
 
 ```
