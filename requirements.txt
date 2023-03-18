@@ -8,3 +8,4 @@ plotly
 jsonify
 scikit-learn
 joblib
+gunicorn

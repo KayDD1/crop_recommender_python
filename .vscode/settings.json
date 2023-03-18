@@ -1,12 +1,13 @@
 {
     "cSpell.words": [
         "boxcox",
+        "gunicorn",
         "joblib",
         "jsonify",
         "Multiclass",
         "scipy"
     ],
     "snyk.trustedFolders": [
-        
+
     ]
 }
