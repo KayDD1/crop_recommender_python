@@ -7,3 +7,4 @@ scipy
 plotly
 jsonify
 scikit-learn
+joblib
